@@ -16,7 +16,7 @@ function Home(){
 <div className="container">
 
 
-<h1> Online Library 📖</h1>
+<h1> Welcome to  our Online Library 📖</h1>
 
  <h3>Categories</h3>
       <ul>

@@ -22,9 +22,10 @@ function AddBook() {
       alert("All fields are required");
       return;
     }
+const formattedCategory = book.category.trim().toLowerCase();
 
-    dispatch(addBook({ ...book, id: Date.now() }));
-    navigate(`/books/${book.category}`);
+    dispatch(addBook({ ...book, category: formattedCategory, id: Date.now() }));
+    navigate(`/books/${formattedCategory}`);
   };
 
   return (
