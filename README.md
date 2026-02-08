@@ -51,12 +51,16 @@ Users can browse books, filter them by category, search by title or author, view
 - CSS
 
 
+## Github Link
+[Project Link](https://github.com/Prathamesh910/Online-Library-System)
+
+
 
 ##  How to Run the Project
 
 1. Clone the repository  
 ```bash
-git clone https://github.com/Prathamesh910/Online-Library-System.git
+git clone https://github.com/Prathamesh910/Online-Library-System.git 
 
 
 2. Navigate to the project folder
@@ -70,7 +74,3 @@ git clone https://github.com/Prathamesh910/Online-Library-System.git
 4. Start the development server
 <http://localhost:5173
 >
-
-
-## Github Link
-[link] :- (https://github.com/Prathamesh910/Online-Library-System)
