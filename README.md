@@ -1,16 +1,76 @@
-# React + Vite
+# 📚 Online Library System 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online library system built using **React**, **Vite**, **React Router**, and **Redux Toolkit**.  
+Users can browse books, filter them by category, search by title or author, view book details, and add new books to the library.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Home Page
+- Welcome landing page
+- Displays book categories
+- Shows popular books using card layout
+- Navigation bar with links to Home, Browse Books, and Add Book
+
+###  Browse Books
+- Browse all books
+- Filter books by category 
+- Search books by title or author
+- View details of any book
+
+###  Book Details
+- Dynamic route for individual books
+- Displays title, author, description, and rating
+- Back button to return to Browse Books
+
+###  Add Book
+- Form to add a new book
+- Redux Toolkit used for global state management
+- Newly added book appears immediately
+- Redirects to Browse Books after submission
+- Form validation for empty fields
+
+###  404 Page
+- Handles invalid routes
+- Displays the incorrect URL
+- Does not show the Navbar
+- Includes link back to Home page
+
+
+
+##  Tech Stack
+
+- React (Hooks)
+- Vite
+- React Router DOM
+- Redux Toolkit
+- React Redux
+- CSS
+
+
+
+##  How to Run the Project
+
+1. Clone the repository  
+```bash
+git clone https://github.com/Prathamesh910/Online-Library-System.git
+
+
+2. Navigate to the project folder
+<cd online-library-sys
+>
+
+3. Install dependencies
+<npm install
+>
+
+4. Start the development server
+<http://localhost:5173
+>
+
+
+## Github Link
+link :- https://github.com/Prathamesh910/Online-Library-System
